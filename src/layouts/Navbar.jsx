@@ -71,6 +71,7 @@ const Navbar = () => {
 							Support
 						</button>
 					</NavLink>
+					<ToggleTheme buttonClasses="ml-4" />
 				</div>
 			</div>
 		</nav>
