@@ -30,7 +30,7 @@ const Navbar = () => {
 				{/* Links */}
 				<div
 					id="nav-links"
-					className="flex items-center gap-x-2 rounded-full p-2 font-medium bg-primary-background-light dark:bg-primary-background-dark"
+					className="flex items-center gap-x-6 rounded-full px-6 py-2 font-medium bg-primary-background-light dark:bg-primary-background-dark"
 				>
 					<NavLink
 						to="/"
