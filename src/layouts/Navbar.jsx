@@ -1,11 +1,12 @@
 import { NavLink } from "react-router";
 import Logo from "../assets/logo.png";
+import ToggleTheme from "../components/shared/ToggleTheme";
 
 const Navbar = () => {
 	return (
 		<nav
 			id="navbar"
-			className="fixed top-0 left-0 right-0 py-2 bg-gradient-to-r from-light/60 to-light/60 backdrop-blur-md"
+			className="fixed top-0 left-0 right-0 py-2 bg-gradient-to-r from-light/60 to-light/60 dark:from-dark/60 dark:to-dark/60 backdrop-blur-md"
 		>
 			{/* All Navbar content */}
 			<div
@@ -29,7 +30,7 @@ const Navbar = () => {
 				{/* Links */}
 				<div
 					id="nav-links"
-					className="flex items-center gap-x-2 rounded-full p-2 font-medium bg-primary-background-light"
+					className="flex items-center gap-x-2 rounded-full p-2 font-medium bg-primary-background-light dark:bg-primary-background-dark"
 				>
 					<NavLink
 						to="/"
